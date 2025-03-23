@@ -14,7 +14,7 @@ app.get("/photos", (req, res) => {
   const dirpath = path.join(__dirname, "photos");
 
   fs.readdir(dirpath, (err, files) => {
-    if (err) return res.status(500).json({ error: "Error reading directory" });
+    if (err) return res.status(500).json({ error: "Error  directory" });
 
     const urls = files.map((file) => ({
       url: `/photos/${file}`,
