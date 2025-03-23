@@ -12,7 +12,8 @@ logs/
 debug.log
 
 # Image uploads (if you don't want to track them)
-
+photos/
+uploads/
 
 # System files
 .DS_Store
